@@ -1,5 +1,5 @@
-const ProductManager = require("./class/ProductManager")
-const [aceite] = require("./productos")
+const ProductManager = require("./ProductManager")
+const [aceite] = require("./Desafio 2/class/productos")
 
 const products = new ProductManager("./database/db.json")
 
